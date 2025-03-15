@@ -83,6 +83,48 @@ public class Main {
         System.out.println("A inicial do seu nome é '" + Newinicial + "'");
         System.out.println("Você é estudante? " + Newestudante);
 
+        System.out.println("\n----------------------------\n");
+        /// **Atividade 1: Pré-incremento e Pós-incremento**
+
+        int a = 5;
+        int b = a++;
+        int c = a--;
+
+        System.out.println("Valor de a: " + a);
+        System.out.println("Valor de b: " + b);
+        System.out.println("Valor de c: " + c);
+        System.out.println("\n-----------------------\n");
+
+
+        //### **Atividade 3: Operadores Abreviados**
+        int valor = 20;
+        valor = valor + 5;
+        valor = valor * 2;
+        valor = valor - 3;
+        valor = valor / 2;
+        valor = valor % 4;
+        System.out.println("Resultado final: " + valor);
+
+        System.out.println("\n-----------------------\n");
+
+        int senai = 10;
+        int senai1= 210;
+        System.out.println("Resultado da soma é: "+(senai+senai1));
+
+        System.out.println("\n-----------------------\n");
+
+        int ageYears = 17;
+        int ageDays = ageYears * 365;
+        long ageSeconds = ageYears * 365 * 24L * 60 * 60;
+        System.out.println("Você já tem " + ageDays
+                + " dias de idade.");
+
+        System.out.println("Você já tem " + ageSeconds
+                + " segundos de idade.");
+
+
+
+        System.out.println("\n-----------------------\n");
 
     }
 }
