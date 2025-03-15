@@ -62,6 +62,26 @@ public class Main {
 
         System.out.println("\n---------------------\n");
 
+        //verificando se é par ou impar
+
+        int number = 116;
+        if (number % 2 == 0) {
+            System.out.println("O número " + number + " é par.");
+        } else {
+            System.out.println("O número " + number + " é ímpar.");
+        }
+        System.out.println("\n---------------------\n");
+
+        //declarando variaveis
+        int Newidade = 25;
+        double Newaltura = 1.75;
+        char Newinicial = 'L';
+        boolean Newestudante = true;
+
+        System.out.println("Sua idade é " + Newidade);
+        System.out.println("Sua altura é " + Newaltura);
+        System.out.println("A inicial do seu nome é '" + Newinicial + "'");
+        System.out.println("Você é estudante? " + Newestudante);
 
 
     }
