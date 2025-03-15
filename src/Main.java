@@ -32,9 +32,9 @@ public class Main {
 
         System.out.println("-------");
         int numero = 10;
-        boolean maiorQueDez = numero >= 10;
+        boolean maiorQueDez = numero > 10;
 
-        System.out.println("O número " + numero + " é maior ou igual que 10? " + maiorQueDez);
+        System.out.println("O número " + numero + " é maior que 10? " + maiorQueDez);
 
         System.out.println("\n-----------------\n");
 
@@ -45,6 +45,24 @@ public class Main {
         System.out.println("Último número: " + numeros[numeros.length - 1]);
 
         System.out.println("\n------------------\n");
+
+        // calculando
+        double largura = 5.0;
+        double altura = 3.0;
+        double area = largura * altura;
+
+        System.out.println("A área do retângulo é: " + area+"M²");
+        System.out.println("\n--------\n");
+
+        //trabalhando com strings e dados multivalorados
+        int idade = 46;
+        double peso = 60.4 ;
+        String nome = "João";
+        System.out.println("Olá meu nome é: " + nome + "\ncompletei: "+idade+" anos de idade\neu peso aproximadamente: "+peso);
+
+        System.out.println("\n---------------------\n");
+
+
 
     }
 }
